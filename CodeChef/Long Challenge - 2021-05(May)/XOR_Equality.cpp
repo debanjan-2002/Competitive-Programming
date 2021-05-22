@@ -1,0 +1,53 @@
+#include<bits/stdc++.h>
+#define ll long long
+#define pb push_back
+#define pob pop_back
+#define read(x) long long x; cin>>x
+#define reads(x) string x; cin>>x
+#define str to_string
+#define rep(i,a,b) for(ll i=a; i<b; i++)
+#define all(v) v.begin(),v.end()
+#define allr(v) v.begin(),v.end(),greater<ll>()
+#define fastI_O ios_base::sync_with_stdio(false);cin.tie(NULL)
+const int N = 1e9 +7;
+using namespace std;
+
+ll power(ll base,ll ex){
+	if(base == 0)
+		return 0;
+	if(ex == 0)
+		return 1;
+	ll y;
+	if((ex & 1) == 0){
+		y = power(base,ex/2);
+		y = (y * y) % N;
+	}
+	else{
+		y = base % N;
+		y = (y * power(base,ex-1) % N) % N;
+	}
+	return (y+N)%N;
+}
+void solve(){
+	read(n);
+	ll ans = power(2,n-1);
+	cout<<ans<<"\n";
+}
+
+void init_code(){
+	#ifndef ONLINE_JUDGE
+		freopen("input.txt", "r", stdin);
+		//freopen("output.txt", "w", stdout);
+	#endif 
+}
+
+int main(){
+	fastI_O;
+	init_code();
+	int t=1;
+	cin>>t;
+	while(t--){
+		solve();
+	}
+	
+}
