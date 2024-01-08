@@ -9,4 +9,4 @@ Platforms -
 
 Favourites -
 
-1. [Round 915 - C](</CodeForces/Round_915_(Div.2)/C.cpp>)
+1. [Round 915 - C (Finding lexicographically largest subsequence)](</CodeForces/Round_915_(Div.2)/C.cpp>)
