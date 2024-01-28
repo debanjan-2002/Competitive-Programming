@@ -14,3 +14,5 @@ Favourites -
 3. [Edu Round 161 - B](/CodeForces/Educational_Round_161/B.cpp)
     - Property used: 2<sup>0</sup> + 2<sup>1</sup> + 2<sup>2</sup> + 2<sup>3</sup> + ..... + 2<sup>n - 1</sup> < 2<sup>n</sup>
 4. [Edu Round 161 - C (Concept of Prefix / Suffix)](/CodeForces/Educational_Round_161/C.cpp)
+5. [Round 910 - C (Splitting a number into almost equal elements)](</CodeForces/Round_910_(Div.2)/B.cpp>)
+    - Very good question (\*1500 rated)
